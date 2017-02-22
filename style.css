@@ -292,4 +292,19 @@ footer h1
 }
 
 
+/*AUTRES*/
+
+#presentation {
+    text-align: justify;
+}
+
+#video_presentation {
+    text-align: center;
+}
+
+#cible {
+    text-align: justify;
+}
+
+
 /* MEDIAS QUERIES */
