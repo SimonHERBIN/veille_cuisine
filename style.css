@@ -238,6 +238,7 @@ footer
     display: flex;
     background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
     padding-top: 25px;
+    margin-bottom: 10px;
 }
 
 footer p, footer ul
@@ -308,3 +309,86 @@ footer h1
 
 
 /* MEDIAS QUERIES */
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+
+    aside {
+        display: none;
+    }
+
+
+    #banniere_image {
+        max-width: 320px;
+        overflow: hidden;
+    }
+
+    header, nav ul {
+        max-width: 100px;
+
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        margin-left: -15px;
+        font-size: 8px;
+
+    }
+
+    .primo {
+        font-size: 40px;
+        margin-left: 1px;
+
+    }
+
+    #titre_principal h2 {
+        font-size: 15px;
+    }
+
+    p {
+        width: 310px;
+    }
+
+    #video_presentation {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    #video_presentation iframe,  
+    #video_presentation object,  
+    #video_presentation embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 310px;
+    height: 174px;
+}
+
+    footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    }
+
+
+@media screen and (max-width: 1024px) {
+
+   aside  { 
+    display: none;
+     }
+
+    }
+
+
+
+
+
+
